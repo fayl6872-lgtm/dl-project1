@@ -1,0 +1,175 @@
+{
+
+  "checkpoint": "runs/probe_dev_degradation/best.pt",
+
+  "policy": "flip",
+
+  "variant": "ema",
+
+  "checkpoint_epoch": 1,
+
+  "validation_accuracy": 97.32,
+
+  "validation_loss": 0.08846841752529144,
+
+  "robustness_average": 95.93,
+
+  "recalibrate_bn": false,
+
+  "weight_interpolation_fraction": 1.0,
+
+  "run": "probe_dev_degradation",
+
+  "parameters": 4480474,
+
+  "candidates": [
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 1,
+
+      "validation_accuracy": 97.32,
+
+      "validation_loss": 0.08846841752529144,
+
+      "robustness_average": 95.93,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 1.0
+
+    },
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/final_raw/best.pt",
+
+      "policy": "flip",
+
+      "variant": "raw",
+
+      "checkpoint_epoch": 100,
+
+      "validation_accuracy": 96.86,
+
+      "validation_loss": 0.10477340966463089,
+
+      "robustness_average": 96.28999999999999,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 1.0
+
+    },
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/final_ema/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 100,
+
+      "validation_accuracy": 96.88,
+
+      "validation_loss": 0.10465697944164276,
+
+      "robustness_average": 96.295,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 1.0
+
+    },
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/blend25/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 100,
+
+      "validation_accuracy": 97.08,
+
+      "validation_loss": 0.08609583228826523,
+
+      "robustness_average": 94.71,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 0.25
+
+    },
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/blend50/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 100,
+
+      "validation_accuracy": 96.66,
+
+      "validation_loss": 0.09859141707420349,
+
+      "robustness_average": 94.88,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 0.5
+
+    },
+
+    {
+
+      "checkpoint": "runs/probe_dev_degradation/blend75/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 100,
+
+      "validation_accuracy": 96.41999999999999,
+
+      "validation_loss": 0.10200410336256027,
+
+      "robustness_average": 95.57000000000001,
+
+      "recalibrate_bn": false,
+
+      "weight_interpolation_fraction": 0.75
+
+    }
+
+  ],
+
+  "previous_validation_accuracy": 97.58,
+
+  "previous_public_score": 0.886,
+
+  "final_epochs": 100,
+
+  "parent_epochs": 380,
+
+  "final_seed": 4041,
+
+  "training_images": 50000,
+
+  "basis": "fixed clean and synthetically altered validation images only; no hidden labels"
+
+}

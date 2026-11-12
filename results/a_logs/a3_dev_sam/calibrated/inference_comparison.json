@@ -1,0 +1,69 @@
+{
+
+  "checkpoint": "runs/a3_dev_sam/calibrated/best.pt",
+
+  "epoch": 77,
+
+  "variant": "ema",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 97.22,
+
+      "correct": 4861,
+
+      "loss": 0.08397693186998367
+
+    },
+
+    "flip": {
+
+      "accuracy": 97.5,
+
+      "correct": 4875,
+
+      "loss": 0.07975908368825912
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 97.26,
+
+      "correct": 4863,
+
+      "loss": 0.08458022773265839
+
+    },
+
+    "scale_flip": {
+
+      "accuracy": 97.16,
+
+      "correct": 4858,
+
+      "loss": 0.09355107694864273
+
+    },
+
+    "crop36": {
+
+      "accuracy": 96.61999999999999,
+
+      "correct": 4831,
+
+      "loss": 0.10065757483243942
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

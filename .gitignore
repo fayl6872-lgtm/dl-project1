@@ -1,0 +1,28 @@
+# Dataset and everything derived from it
+data/*
+!data/README.md
+a_resnet_scaling/cache/
+a_resnet_scaling/splits/
+a_resnet_scaling/runs/
+a_resnet_scaling/submissions/
+b_width_depth/outputs/
+b_width_depth/runs/
+b_width_depth/submissions/
+*.pt
+*.pth
+*.npy
+*.csv
+!results/**/*.csv
+!results/*.csv
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+.env
+kaggle.json

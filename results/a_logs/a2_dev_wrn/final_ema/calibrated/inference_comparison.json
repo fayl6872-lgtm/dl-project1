@@ -1,0 +1,49 @@
+{
+
+  "checkpoint": "runs/a2_dev_wrn/final_ema/calibrated/best.pt",
+
+  "epoch": 300,
+
+  "variant": "ema",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 96.86,
+
+      "correct": 4843,
+
+      "loss": 0.11010021716356277
+
+    },
+
+    "flip": {
+
+      "accuracy": 97.3,
+
+      "correct": 4865,
+
+      "loss": 0.09043729305267334
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 97.11999999999999,
+
+      "correct": 4856,
+
+      "loss": 0.09274648129940033
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

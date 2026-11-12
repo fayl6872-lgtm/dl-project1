@@ -1,0 +1,22 @@
+{
+  "name": "a0_resnet18_baseline",
+  "base_width": 32,
+  "blocks_per_stage": [2, 2, 2, 2],
+  "num_classes": 10,
+  "epochs": 100,
+  "batch_size": 128,
+  "eval_batch_size": 256,
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": "cosine",
+  "minimum_learning_rate": 0.0,
+  "seed": 42,
+  "split_seed": 42,
+  "validation_per_class": 500,
+  "precision": "bfloat16",
+  "crop_padding": 4,
+  "horizontal_flip_probability": 0.5,
+  "normalization": "training_subset_mean_std",
+  "parameter_limit": 5000000
+}

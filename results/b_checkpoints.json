@@ -1,0 +1,102 @@
+[
+  {
+    "id": "B1",
+    "checkpoint": "final.pt",
+    "epoch": 295,
+    "weights_source": "raw",
+    "val_acc": null,
+    "trainable_parameters": 4500898,
+    "widths": [
+      56,
+      112,
+      224
+    ],
+    "blocks_per_stage": [
+      4,
+      4,
+      4
+    ],
+    "sha256": "879903bca2281b897943aa905ec95dc4413c4d4375ecc8cc20965e5e8c8575a9",
+    "submission": "results/b_submissions/b1_deep_narrow_full.csv"
+  },
+  {
+    "id": "B2",
+    "checkpoint": "final.pt",
+    "epoch": 298,
+    "weights_source": "raw",
+    "val_acc": null,
+    "trainable_parameters": 4336410,
+    "widths": [
+      80,
+      160,
+      320
+    ],
+    "blocks_per_stage": [
+      2,
+      2,
+      2
+    ],
+    "sha256": "9d3a8677d4070e8f5db2d55b4e286322f6b89750020450802f15f7c1ecae132c",
+    "submission": "results/b_submissions/b2_wide_shallow_full.csv"
+  },
+  {
+    "id": "B3",
+    "checkpoint": "best.pt",
+    "epoch": 289,
+    "weights_source": "raw",
+    "val_acc": 0.9682,
+    "trainable_parameters": 4696394,
+    "widths": [
+      64,
+      128,
+      256
+    ],
+    "blocks_per_stage": [
+      4,
+      4,
+      3
+    ],
+    "sha256": "4384d426288ebeaf571fb22545b98774344a93ebc96b89b2674d66f7ce619b1e",
+    "submission": "results/b_submissions/b3_large_fold0.csv"
+  },
+  {
+    "id": "B4",
+    "checkpoint": "best.pt",
+    "epoch": 297,
+    "weights_source": "raw",
+    "val_acc": 0.969,
+    "trainable_parameters": 4500898,
+    "widths": [
+      56,
+      112,
+      224
+    ],
+    "blocks_per_stage": [
+      4,
+      4,
+      4
+    ],
+    "sha256": "f4a717d9f8b6bf7fa4cbc446b8d5dfed1617d2919609aa8c93cbfb0917ede605",
+    "submission": "results/b_submissions/b4_deep_fold0.csv"
+  },
+  {
+    "id": "B3-full",
+    "checkpoint": "final.pt",
+    "epoch": 294,
+    "weights_source": "raw",
+    "val_acc": null,
+    "trainable_parameters": 4696394,
+    "widths": [
+      64,
+      128,
+      256
+    ],
+    "blocks_per_stage": [
+      4,
+      4,
+      3
+    ],
+    "sha256": "9603ee23629cc7a773dc0b97a730e66caef0ab8d402636fe9f10ae8ce310245c",
+    "submission": "results/b_submissions/b3_large_full.csv"
+  }
+]

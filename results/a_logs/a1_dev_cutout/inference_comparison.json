@@ -1,0 +1,49 @@
+{
+
+  "checkpoint": "runs/a1_dev_cutout/best.pt",
+
+  "epoch": 189,
+
+  "variant": "ema",
+
+  "parameters": 4368690,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 96.06,
+
+      "correct": 4803,
+
+      "loss": 0.1391603648662567
+
+    },
+
+    "flip": {
+
+      "accuracy": 96.24000000000001,
+
+      "correct": 4812,
+
+      "loss": 0.12012466788291931
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 96.17999999999999,
+
+      "correct": 4809,
+
+      "loss": 0.1177787110209465
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

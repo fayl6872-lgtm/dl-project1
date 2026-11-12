@@ -1,0 +1,69 @@
+{
+
+  "checkpoint": "runs/probe_dev_degradation/final_ema/best.pt",
+
+  "epoch": 100,
+
+  "variant": "ema",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 96.66,
+
+      "correct": 4833,
+
+      "loss": 0.12291406095027924
+
+    },
+
+    "flip": {
+
+      "accuracy": 96.88,
+
+      "correct": 4844,
+
+      "loss": 0.10465697944164276
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 96.7,
+
+      "correct": 4835,
+
+      "loss": 0.10296618938446045
+
+    },
+
+    "scale_flip": {
+
+      "accuracy": 96.98,
+
+      "correct": 4849,
+
+      "loss": 0.10046900808811188
+
+    },
+
+    "crop36": {
+
+      "accuracy": 97.06,
+
+      "correct": 4853,
+
+      "loss": 0.09877381473779678
+
+    }
+
+  },
+
+  "selected_policy": "crop36"
+
+}

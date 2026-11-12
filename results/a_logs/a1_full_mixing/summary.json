@@ -1,0 +1,10 @@
+{
+  "parameters": 4368690,
+  "completed_epochs": 200,
+  "training_images": 50000,
+  "all_data": true,
+  "best_validation": null,
+  "training_seconds": 1293.583911898313,
+  "peak_allocated_gpu_GiB": 0.42769765853881836,
+  "test_accuracy": null
+}

@@ -1,0 +1,33 @@
+{
+
+  "parameters": 4480474,
+
+  "completed_epochs": 100,
+
+  "training_images": 50000,
+
+  "all_data": true,
+
+  "best_validation": null,
+
+  "training_seconds": 571.183712399099,
+
+  "peak_allocated_gpu_GiB": 0.645474910736084,
+
+  "test_accuracy": null,
+
+  "parent_checkpoint": {
+
+    "path": "runs/a3_full_sam/final.pt",
+
+    "sha256": "45e5d7dfdd9951bdef985c571cdd8fc2a847fa1ce864fdb7f90496280aad8e79",
+
+    "epoch": 80,
+
+    "cumulative_epochs": 380,
+
+    "origin": "own model trained from random initialization on permitted data only"
+
+  }
+
+}

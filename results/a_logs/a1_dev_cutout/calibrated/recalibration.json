@@ -1,0 +1,13 @@
+{
+
+  "source": "runs/a1_dev_cutout/best.pt",
+
+  "images": 45000,
+
+  "augmentation": false,
+
+  "seed": 809,
+
+  "batch_size": 256
+
+}

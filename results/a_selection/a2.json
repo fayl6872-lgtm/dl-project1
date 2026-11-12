@@ -1,0 +1,143 @@
+{
+
+  "checkpoint": "runs/a2_dev_wrn/final_ema/calibrated/best.pt",
+
+  "policy": "flip",
+
+  "variant": "ema",
+
+  "checkpoint_epoch": 300,
+
+  "validation_accuracy": 97.3,
+
+  "validation_loss": 0.09043729305267334,
+
+  "recalibrate_bn": true,
+
+  "run": "a2_dev_wrn",
+
+  "parameters": 4480474,
+
+  "candidates": [
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 289,
+
+      "validation_accuracy": 97.26,
+
+      "validation_loss": 0.08998968452215195,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 289,
+
+      "validation_accuracy": 97.2,
+
+      "validation_loss": 0.08994537591934204,
+
+      "recalibrate_bn": true
+
+    },
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/final_raw/best.pt",
+
+      "policy": "flip",
+
+      "variant": "raw",
+
+      "checkpoint_epoch": 300,
+
+      "validation_accuracy": 97.22,
+
+      "validation_loss": 0.09063269942998886,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/final_raw/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "raw",
+
+      "checkpoint_epoch": 300,
+
+      "validation_accuracy": 97.3,
+
+      "validation_loss": 0.0904495045542717,
+
+      "recalibrate_bn": true
+
+    },
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/final_ema/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 300,
+
+      "validation_accuracy": 97.2,
+
+      "validation_loss": 0.09065268188714981,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a2_dev_wrn/final_ema/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 300,
+
+      "validation_accuracy": 97.3,
+
+      "validation_loss": 0.09043729305267334,
+
+      "recalibrate_bn": true
+
+    }
+
+  ],
+
+  "previous_validation_accuracy": 96.44,
+
+  "final_epochs": 300,
+
+  "final_seed": 2027,
+
+  "training_images": 50000,
+
+  "basis": "fixed 5000-image validation split; no hidden labels or new competition score used"
+
+}

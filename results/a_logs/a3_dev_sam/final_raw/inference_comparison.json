@@ -1,0 +1,69 @@
+{
+
+  "checkpoint": "runs/a3_dev_sam/final_raw/best.pt",
+
+  "epoch": 80,
+
+  "variant": "raw",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 97.26,
+
+      "correct": 4863,
+
+      "loss": 0.08334831893444061
+
+    },
+
+    "flip": {
+
+      "accuracy": 97.56,
+
+      "correct": 4878,
+
+      "loss": 0.07908561080694199
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 97.34,
+
+      "correct": 4867,
+
+      "loss": 0.08371810615062714
+
+    },
+
+    "scale_flip": {
+
+      "accuracy": 97.16,
+
+      "correct": 4858,
+
+      "loss": 0.09316571801900864
+
+    },
+
+    "crop36": {
+
+      "accuracy": 96.66,
+
+      "correct": 4833,
+
+      "loss": 0.10137183964252472
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

@@ -1,0 +1,61 @@
+{
+
+  "run": "a1_dev_mixing",
+
+  "policy": "flip",
+
+  "validation_accuracy": 96.44,
+
+  "validation_loss": 0.14237871766090393,
+
+  "checkpoint_epoch": 190,
+
+  "variant": "raw",
+
+  "candidates": [
+
+    {
+
+      "run": "a1_dev_cutout",
+
+      "policy": "flip",
+
+      "validation_accuracy": 96.24000000000001,
+
+      "validation_loss": 0.12012466788291931,
+
+      "checkpoint_epoch": 189,
+
+      "variant": "ema"
+
+    },
+
+    {
+
+      "run": "a1_dev_mixing",
+
+      "policy": "flip",
+
+      "validation_accuracy": 96.44,
+
+      "validation_loss": 0.14237871766090393,
+
+      "checkpoint_epoch": 190,
+
+      "variant": "raw"
+
+    }
+
+  ],
+
+  "baseline_best_inference_accuracy": 94.86,
+
+  "final_epochs": 200,
+
+  "final_seed": 142,
+
+  "final_training_images": 50000,
+
+  "selection_basis": "fixed validation split only; no test-set scores used"
+
+}

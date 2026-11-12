@@ -1,0 +1,69 @@
+{
+
+  "checkpoint": "runs/probe_dev_degradation/final_raw/best.pt",
+
+  "epoch": 100,
+
+  "variant": "raw",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 96.64,
+
+      "correct": 4832,
+
+      "loss": 0.1229083463549614
+
+    },
+
+    "flip": {
+
+      "accuracy": 96.86,
+
+      "correct": 4843,
+
+      "loss": 0.10477340966463089
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 96.7,
+
+      "correct": 4835,
+
+      "loss": 0.10298141092061996
+
+    },
+
+    "scale_flip": {
+
+      "accuracy": 96.98,
+
+      "correct": 4849,
+
+      "loss": 0.10046941041946411
+
+    },
+
+    "crop36": {
+
+      "accuracy": 97.06,
+
+      "correct": 4853,
+
+      "loss": 0.09877347946166992
+
+    }
+
+  },
+
+  "selected_policy": "crop36"
+
+}

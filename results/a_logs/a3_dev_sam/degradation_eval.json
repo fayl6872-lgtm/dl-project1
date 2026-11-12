@@ -1,0 +1,28 @@
+{
+  "checkpoint": "runs/a3_dev_sam/final_ema/best.pt",
+  "examples_per_condition": 5000,
+  "policy": "flip",
+  "conditions": {
+    "clean": {
+      "accuracy": 97.58,
+      "loss": 0.07908382266759872
+    },
+    "gaussian_noise_003": {
+      "accuracy": 92.2,
+      "loss": 0.24646684527397156
+    },
+    "blur_sigma06": {
+      "accuracy": 96.46000000000001,
+      "loss": 0.10573486238718033
+    },
+    "downsample24": {
+      "accuracy": 92.56,
+      "loss": 0.21239140629768372
+    },
+    "brightness07": {
+      "accuracy": 97.38,
+      "loss": 0.08203661441802979
+    }
+  },
+  "note": "Synthetic transformations of the same fixed validation images. Conditions are correlated; not independent test sets. No hidden-test data used."
+}

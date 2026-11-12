@@ -1,0 +1,12 @@
+id,model,parameters,validation_percent,public_percent_recorded,private_percent_recorded,submission_in_repo
+A0,"ResNet-18 style 32-256, crop/flip, 100 ep",2797610,94.54,82.5,80.0,
+A1,"Wider ResNet 40-320, Mixup/CutMix, 200 ep (all data)",4368690,96.44,85.9,84.1,
+A2,"WRN 56/112/224 x4, RandAugment + Cutout, EMA, BN recalibration, 300 ep (all data)",4480474,97.30,88.3,85.3,
+A3,"A2 + 80 SAM epochs (all data)",4480474,97.58,88.6,86.2,
+B1,"Deep/narrow WRN 56/112/224 x(4,4,4), 300 ep (all data)",4500898,,88.4,86.3,results/b_submissions/b1_deep_narrow_full.csv
+B2,"Wide/shallow WRN 80/160/320 x(2,2,2), 300 ep (all data)",4336410,,88.7,85.4,results/b_submissions/b2_wide_shallow_full.csv
+B3,"Larger WRN 64/128/256 x(4,4,3) + RandomErasing, fold 0",4696394,96.82,88.9,84.1,results/b_submissions/b3_large_fold0.csv
+B4,"Deep/narrow, RandAugment M=7, CutMix 0.75, LS 0.1, fold 0",4500898,96.90,88.5,85.4,results/b_submissions/b4_deep_fold0.csv
+B5,"B4 recipe, separate run (file name indicates fold 1)",4500898,,87.9,86.0,
+B6,"B3 recipe, separate run (file name indicates fold 2)",4696394,,88.8,84.2,
+B7,"B3 recipe, separate run",4696394,,87.9,85.1,

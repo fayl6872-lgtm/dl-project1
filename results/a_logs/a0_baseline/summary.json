@@ -1,0 +1,29 @@
+{
+
+  "run_type": "baseline",
+
+  "completed_epochs": 100,
+
+  "trainable_parameters": 2797610,
+
+  "parameter_limit": 5000000,
+
+  "best_epoch": 97,
+
+  "best_validation_accuracy": 94.54,
+
+  "best_validation_loss": 0.218167529296875,
+
+  "final_validation_accuracy": 94.52,
+
+  "training_seconds": 399.3504245018121,
+
+  "validation_seconds": 7.402683401014656,
+
+  "peak_allocated_gpu_GiB": 0.3740081787109375,
+
+  "test_accuracy": null,
+
+  "test_accuracy_note": "test labels are not public"
+
+}

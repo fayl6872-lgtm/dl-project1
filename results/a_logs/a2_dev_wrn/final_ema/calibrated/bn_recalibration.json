@@ -1,0 +1,17 @@
+{
+
+  "source": "runs/a2_dev_wrn/final_ema/best.pt",
+
+  "source_sha256": "4af02cba712fda80c94f637022d624a4ebcd7c7d1cf5aa41d9e3e0ef96108e97",
+
+  "training_images": 45000,
+
+  "augmentation": "same RandAugment/crop/flip/Cutout as training",
+
+  "epoch_seed": 1000,
+
+  "order_and_cutout_seed": 809,
+
+  "batch_size": 256
+
+}

@@ -1,0 +1,71 @@
+{
+
+  "name": "a1_full_mixing",
+
+  "base_width": 40,
+
+  "blocks_per_stage": [
+
+    2,
+
+    2,
+
+    2,
+
+    2
+
+  ],
+
+  "num_classes": 10,
+
+  "epochs": 200,
+
+  "batch_size": 128,
+
+  "eval_batch_size": 256,
+
+  "learning_rate": 0.1,
+
+  "momentum": 0.9,
+
+  "weight_decay": 0.0005,
+
+  "scheduler": "cosine",
+
+  "minimum_learning_rate": 0.0,
+
+  "seed": 142,
+
+  "split_seed": 42,
+
+  "validation_per_class": 500,
+
+  "precision": "bfloat16",
+
+  "crop_padding": 4,
+
+  "horizontal_flip_probability": 0.5,
+
+  "normalization": "training_subset_mean_std",
+
+  "parameter_limit": 5000000,
+
+  "warmup_epochs": 5,
+
+  "ema_decay": 0.995,
+
+  "cutout_size": 0,
+
+  "mix_probability": 0.8,
+
+  "mix_off_last_epochs": 20,
+
+  "cutmix_fraction": 0.5,
+
+  "cutmix_alpha": 1.0,
+
+  "mixup_alpha": 0.2,
+
+  "final_variant": "raw"
+
+}

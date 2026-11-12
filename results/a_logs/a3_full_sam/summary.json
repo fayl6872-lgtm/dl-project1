@@ -1,0 +1,31 @@
+{
+
+  "parameters": 4480474,
+
+  "completed_epochs": 80,
+
+  "training_images": 50000,
+
+  "all_data": true,
+
+  "best_validation": null,
+
+  "training_seconds": 1794.1244831001386,
+
+  "peak_allocated_gpu_GiB": 0.6535587310791016,
+
+  "test_accuracy": null,
+
+  "parent_checkpoint": {
+
+    "path": "runs/a2_full_wrn/final.pt",
+
+    "sha256": "1ccb280865bcae19aacc54d7a06445e94b64c02cc3139e6ba63fd572502d3981",
+
+    "epoch": 300,
+
+    "origin": "own model trained from random initialization on permitted data only"
+
+  }
+
+}

@@ -1,0 +1,49 @@
+{
+
+  "checkpoint": "runs/a1_dev_mixing/best.pt",
+
+  "epoch": 190,
+
+  "variant": "raw",
+
+  "parameters": 4368690,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 95.89999999999999,
+
+      "correct": 4795,
+
+      "loss": 0.17327158153057098
+
+    },
+
+    "flip": {
+
+      "accuracy": 96.44,
+
+      "correct": 4822,
+
+      "loss": 0.14237871766090393
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 95.94,
+
+      "correct": 4797,
+
+      "loss": 0.13920339941978455
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

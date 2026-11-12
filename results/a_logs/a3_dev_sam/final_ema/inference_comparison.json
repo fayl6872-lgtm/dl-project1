@@ -1,0 +1,69 @@
+{
+
+  "checkpoint": "runs/a3_dev_sam/final_ema/best.pt",
+
+  "epoch": 80,
+
+  "variant": "ema",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 97.3,
+
+      "correct": 4865,
+
+      "loss": 0.08334096521139145
+
+    },
+
+    "flip": {
+
+      "accuracy": 97.58,
+
+      "correct": 4879,
+
+      "loss": 0.07908524572849274
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 97.3,
+
+      "correct": 4865,
+
+      "loss": 0.08373250812292099
+
+    },
+
+    "scale_flip": {
+
+      "accuracy": 97.16,
+
+      "correct": 4858,
+
+      "loss": 0.09316781908273697
+
+    },
+
+    "crop36": {
+
+      "accuracy": 96.64,
+
+      "correct": 4832,
+
+      "loss": 0.101382777094841
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

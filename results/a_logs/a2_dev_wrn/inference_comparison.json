@@ -1,0 +1,49 @@
+{
+
+  "checkpoint": "runs/a2_dev_wrn/best.pt",
+
+  "epoch": 289,
+
+  "variant": "ema",
+
+  "parameters": 4480474,
+
+  "validation_examples": 5000,
+
+  "policies": {
+
+    "none": {
+
+      "accuracy": 96.98,
+
+      "correct": 4849,
+
+      "loss": 0.10870422422885895
+
+    },
+
+    "flip": {
+
+      "accuracy": 97.26,
+
+      "correct": 4863,
+
+      "loss": 0.08998968452215195
+
+    },
+
+    "shift_flip": {
+
+      "accuracy": 97.14,
+
+      "correct": 4857,
+
+      "loss": 0.0924418494105339
+
+    }
+
+  },
+
+  "selected_policy": "flip"
+
+}

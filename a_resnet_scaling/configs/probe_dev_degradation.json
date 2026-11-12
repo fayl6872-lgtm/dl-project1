@@ -1,0 +1,59 @@
+{
+
+  "name": "probe_dev_degradation",
+
+  "architecture": "wide_resnet",
+
+  "channels": [
+
+    56,
+
+    112,
+
+    224
+
+  ],
+
+  "blocks": 4,
+
+  "dropout": 0.0,
+
+  "num_classes": 10,
+
+  "parameter_limit": 5000000,
+
+  "epochs": 100,
+
+  "batch_size": 128,
+
+  "eval_batch_size": 256,
+
+  "learning_rate": 0.01,
+
+  "momentum": 0.9,
+
+  "weight_decay": 0.0005,
+
+  "warmup_epochs": 2,
+
+  "ema_decay": 0.995,
+
+  "seed": 4040,
+
+  "precision": "bfloat16",
+
+  "randaugment_ops": 2,
+
+  "randaugment_magnitude": 5,
+
+  "cutout_size": 8,
+
+  "num_workers": 4,
+
+  "crop_padding": 4,
+
+  "horizontal_flip_probability": 0.5,
+
+  "initial_checkpoint": "runs/a3_dev_sam/final_ema/best.pt"
+
+}

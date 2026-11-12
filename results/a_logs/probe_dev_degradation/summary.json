@@ -1,0 +1,47 @@
+{
+
+  "parameters": 4480474,
+
+  "completed_epochs": 100,
+
+  "training_images": 45000,
+
+  "all_data": false,
+
+  "best_validation": {
+
+    "epoch": 1,
+
+    "variant": "ema",
+
+    "loss": 0.09658967895507813,
+
+    "accuracy": 97.04,
+
+    "correct": 4852,
+
+    "total": 5000
+
+  },
+
+  "training_seconds": 770.8846538991202,
+
+  "peak_allocated_gpu_GiB": 0.6451020240783691,
+
+  "test_accuracy": null,
+
+  "parent_checkpoint": {
+
+    "path": "runs/a3_dev_sam/final_ema/best.pt",
+
+    "sha256": "7cbc588080aa5f970f560bab129c3ff1549726146f0ebeea2b38cd668e7b68d8",
+
+    "epoch": 80,
+
+    "cumulative_epochs": 380,
+
+    "origin": "own model trained from random initialization on permitted data only"
+
+  }
+
+}

@@ -1,0 +1,147 @@
+{
+
+  "checkpoint": "runs/a3_dev_sam/final_ema/best.pt",
+
+  "policy": "flip",
+
+  "variant": "ema",
+
+  "checkpoint_epoch": 80,
+
+  "validation_accuracy": 97.58,
+
+  "validation_loss": 0.07908524572849274,
+
+  "recalibrate_bn": false,
+
+  "run": "a3_dev_sam",
+
+  "parameters": 4480474,
+
+  "candidates": [
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 77,
+
+      "validation_accuracy": 97.52,
+
+      "validation_loss": 0.08002568036317825,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 77,
+
+      "validation_accuracy": 97.5,
+
+      "validation_loss": 0.07975908368825912,
+
+      "recalibrate_bn": true
+
+    },
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/final_raw/best.pt",
+
+      "policy": "flip",
+
+      "variant": "raw",
+
+      "checkpoint_epoch": 80,
+
+      "validation_accuracy": 97.56,
+
+      "validation_loss": 0.07908561080694199,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/final_raw/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "raw",
+
+      "checkpoint_epoch": 80,
+
+      "validation_accuracy": 97.56,
+
+      "validation_loss": 0.07955823838710785,
+
+      "recalibrate_bn": true
+
+    },
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/final_ema/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 80,
+
+      "validation_accuracy": 97.58,
+
+      "validation_loss": 0.07908524572849274,
+
+      "recalibrate_bn": false
+
+    },
+
+    {
+
+      "checkpoint": "runs/a3_dev_sam/final_ema/calibrated/best.pt",
+
+      "policy": "flip",
+
+      "variant": "ema",
+
+      "checkpoint_epoch": 80,
+
+      "validation_accuracy": 97.56,
+
+      "validation_loss": 0.0795486569404602,
+
+      "recalibrate_bn": true
+
+    }
+
+  ],
+
+  "previous_validation_accuracy": 97.3,
+
+  "previous_public_score": 0.883,
+
+  "final_epochs": 80,
+
+  "parent_epochs": 300,
+
+  "final_seed": 3031,
+
+  "training_images": 50000,
+
+  "basis": "fixed 5000-image validation split; no hidden labels used"
+
+}
