@@ -39,7 +39,7 @@ competition test set (test labels are hidden).
 [`notebooks/results.ipynb`](notebooks/results.ipynb) (executed; runs on CPU without the dataset)
 prints the parameter count of every architecture and the final test accuracy, plots the training
 and validation curves, and shows how checkpoints and test-time augmentation were selected. It
-reads the logs and submission files in `results/` (needs `torch`, `numpy`, `matplotlib`, `jupyter`):
+reads the logs, leaderboard scores, and checkpoint metadata in `results/` (needs `torch`, `numpy`, `matplotlib`, `jupyter`):
 
 ```text
 results/
@@ -47,7 +47,6 @@ results/
   a_logs/             per-epoch history, summaries and evaluation JSON of every pipeline-A run
   a_selection/        candidate comparison behind each pipeline-A model choice
   b_checkpoints.json  epoch, raw/EMA, parameter count and SHA-256 of each submitted B checkpoint
-  b_submissions/      submitted prediction files of B1-B4 and the B3 all-data refit
   figures/            plots written by the notebook
 ```
 
@@ -56,8 +55,8 @@ results/
 | Experiments | Preserved artifacts | Not preserved |
 |---|---|---|
 | A0–A3, robustness probe | code, configs, per-epoch logs, candidate/TTA selection records (`results/a_logs`, `results/a_selection`) | weights, submission files |
-| B1, B2 | all-data training script (saved epochs 295, 298 are fixed in code), submitted weights (metadata in `results/b_checkpoints.json`), submission files | logs of the three fold runs used to choose those epochs |
-| B3, B4 | exact training command, submitted weights (raw, epochs 289 and 297), submission files | per-epoch logs |
+| B1, B2 | all-data training scripts, checkpoint metadata (epochs and hashes) in `results/b_checkpoints.json` | three-fold selection logs, checkpoint weights and prediction files |
+| B3, B4 | documented training commands, checkpoint metadata (epochs and hashes) in `results/b_checkpoints.json` | per-epoch logs, checkpoint weights and prediction files |
 | B5–B7 | recipe and leaderboard scores | command (fold, seed), weights, logs, submission files |
 
 All code paths were checked on CPU (unit tests, parameter counts, data preparation, short training
